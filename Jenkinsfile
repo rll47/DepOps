@@ -21,13 +21,13 @@ node {
     // ------------------------------------
    // -- ETAPA: Sonarqube
    // ------------------------------------
-   stage 'Sonarqube'
-   echo '*executing ... Sonarqube*'
-   sh 'mvn clean install sonar:sonar -P qa-ui -Dmaven.test.skip=true -f ./pom.xml'
+   //stage 'Sonarqube'
+   //echo '*executing ... Sonarqube*'
+   //sh 'mvn clean install sonar:sonar -P qa-ui -Dmaven.test.skip=true -f ./pom.xml'
    
    // -- Compilando
-   echo 'Compilando aplicación'
-   sh 'mvn clean compile'
+   //echo 'Compilando aplicación'
+   //sh 'mvn clean compile'
    
    // ------------------------------------
    // -- ETAPA: Test
